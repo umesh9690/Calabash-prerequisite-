@@ -9,7 +9,7 @@ Introduction
 
     *Windows users* can use the [Windows installer](http://rubyinstaller.org/downloads/).
 
-    *For Mac users*, mac os comes pre-installed with version 2.0.0. One option is to use homebrew: *'brew install ruby'* to pull in 2.3.1. 
+    *For Mac users*, mac os comes pre-installed with version 2.0.0. One option is to use homebrew: *'brew install ruby'* to pull in 2.3.3. 
 Alternatively, if you need to be able to use 2.0.0 for other applications, then rbenv can be used 
 to install 2.3.3 and manage multiple installations in parallel.
 <br />
