@@ -26,16 +26,12 @@ to install 2.3.3 and manage multiple installations in parallel.
     *NOTE: If this fails - see [Troubleshooting - Gem install issue](#gem_issue)</a>*
 <br />
 
-4. **Clone this repo**
+4. **Install Android SDK**
+You'll also need to have the Java Development Kit (JDK) installed and available. Calabash will attempt to automatically find this from registry keys on windows, or monodroid config elsewhere, but you can also specify it explicitly by setting the JAVA_HOME environment variable to its location (e.g. C:\Program Files\Java\jdk1.8.0_20), or having the JDK binaries themselves (i.e. C:\Program Files\Java\jdk1.8.0_20\bin) in your path.
 
-    *[Assumes you have git installed]*
+You should have the Android SDK installed. You can download it from [here](https://developer.android.com/studio/index.html). Create an environment variable with the name : ANDROID_HOME and its value pointing to the location of the unzipped downloaded SDK.
 
-    Then *cd* to the project root before...
-<br />
-
-5. **Install project dependencies:**
-
-        $> bundle
+To compile Calabash-Android from source, you will also need to have Ant installed and added to your path. It can be downloaded from here.
   
 
 <br />
